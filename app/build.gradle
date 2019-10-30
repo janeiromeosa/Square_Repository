@@ -52,5 +52,6 @@ dependencies {
 
     //Live Data
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }

@@ -10,7 +10,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
-    private val squareReposViewModel: SquareReposViewModel by viewModel<SquareReposViewModel>()
+    val squareReposViewModel: SquareReposViewModel by viewModel()
     private val repositoryAdapter = RepositoryAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
