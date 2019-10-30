@@ -1,0 +1,7 @@
+package com.example.myapplication.di
+
+const val RETROFIT_INSTANCE_REPOSITORY_API = "RETROFIT_INSTANCE_REPOSITORY_API"
+
+const val REMOTE_DATA_STORE = "REMOTE_DATA_STORE"
+
+const val GET_REPOSITORY = "GET_REPOSITORY"
